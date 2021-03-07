@@ -1,0 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* .............................................. */
+/* custom styles */
+
+.image-con img{
+    position: absolute;
+} 
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+.links {
+    color: blue;
+    border-radius: 50%;
+    background-color: black;
+}
+.banner img {
+    width: 1525px;
+}
+.logo img {
+    left: 200px;
+    top: 100px;
+}
+.flex {
+    display: flex;
+}
+.flex1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-box {
+    background-color: white;
+    width: 1100px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+} 
+.heading h1 {
+    font-size: 30px;
+    color: rgb(234,82,62);
+    font-weight: bold;
+    margin-left: 30px;
+}
+.search-headings a {
+    margin-right: 30px;
+    margin-left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+.nav  {
+    position: absolute;
+    width: 200px;
+    margin-left: 700px; 
+    margin-top: 50px; 
+}  
+.nav a {
+    background-color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    text-align: center;
+    display: inline-block;
+    padding-top: 5px;
+    width: 35px;
+    height: 25px;
+}
+.nav a i {
+    color: rgb(77,77,77);
+}
+.sub-heading {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 600px;
+}
+.sub-heading h2 {
+    font-weight: bold;
+    font-size: 35px;
+    text-transform: uppercase;
+    color: white;
+}
+.sub-heading h3 {
+    font-size: 17px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.sub-heading button {
+    text-align: center;
+    margin-left: 130px;
+    margin-top: 15px;
+    background-color: rgb(234,81,62) ;
+    color: white;
+    border-radius: 2px;
+    padding: 10px;
+    text-transform: uppercase;
+}
+.leave-space {
+    height: 720px;
+}
+.small-circle-container {
+    width: 60px;
+    height: 100px;
+    margin: 0 auto;
+}
+.circle {
+    width: 10px;
+    height: 10px;
+    background-color: black;
+    border-radius: 50%;
+    margin-bottom: 90px;
+}
+.circle-color {
+    background-color: rgb(127,127,127);
+}
+/* .................................. */
+.container-arcticle {
+    width: 1000px;
+    margin: 0 auto;
+}
+.flex2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.article-1-headings h2 {
+    text-align: center;
+    width: 180px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(73,73,73);
+    font-weight: bold;
+}
+.h3 {
+    text-transform: uppercase;
+    color: rgb(116,116,116);
+    font-size: 12px;
+    margin-bottom: 40px;
+}
+.article-boxes {
+    width:200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 130px;
+}
+.box-center i {
+    color: white;
+    font-size: 30px;
+    margin-left: 88px;
+    margin-top: 80px; 
+}
+.box1  {
+    background-color: rgb(92,189,157);
+}
+.box2 {
+    background-color:rgb(230,127,49) ;
+}
+.box3 {
+    background-color: rgb(57,152,219) ;
+}
+.box4 {
+    background-color: rgb(104,205,115) ;
+}
+.rows {
+    margin-bottom: 90px;
+}
+.images-row-1 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+.members img{
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+}
+.margin-members {
+    margin-left: 20px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+.progress-bar-outer {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(231,231,231);
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+.progress-bar-inner-1 {
+    background-color: rgb(234,81,62);
+    width: 280px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.progress-bar-inner-2 {
+    background-color: rgb(234,81,62);
+    width: 260px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.progress-bar-inner-1 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 6px
+}
+.progress-bar-inner-2 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 6px
+}
+.progress-bar-inner-3 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 6px
+}
+.progress-bar-inner-4 span {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 6px
+}
+.progress-bar-inner-3 {
+    background-color: rgb(234,81,62);
+    width: 250px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.progress-bar-inner-4 {
+    background-color: rgb(234,81,62);
+    width: 260px;
+    height: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+.progress-para {
+    color: rgb(112,112,112);
+    width: 500px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    line-height: 1.5; 
+}
+.paras {
+    margin-bottom: 250px;
+}
+.margin-bottom {
+    margin-bottom: 120px;
+}
+.contact-message {
+    margin-left: 25px;
+}
+.contact-body-1 {
+    width: 350px;
+    height: 30px;
+    border: 2px solid rgb(236,236,236);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.contact-body-1 span {
+    display: inline-block;
+}
+.contact-body-2 {
+    width: 350px;
+    height: 100px;
+    border: 2px solid rgb(236,236,236);
+    text-transform: capitalize;
+    margin-bottom: 10px; 
+    padding-left: 20px; 
+}
+.contact-body-2 span {
+    display: inline-block;
+}
+.send-message {
+    width:370px;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+.details span {
+    padding-top: 15px;
+}
+.contact-margin{
+    margin-top: 20px;
+}
+.contact-details{
+    margin-top: 40px;
+}
+.contact-details span {
+    display: inline-block;
+    color: tomato;
+}
+.back{
+    width:120px ;
+    height: 30px;
+    background-color: rgb(234,81,62);
+    text-align: center;
+    margin-left: 400px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+}
+.details {
+    margin-bottom: 200px;
+}
+small {
+    margin-left: 55px;
+}
+.back1 span {
+    display: inline-block;
+    margin-top: 6px;
+}
+
+
+/* ............................................................................................ */
+/* gallery page */
+.aside {
+    width: 280px;
+    height: 800px;
+    background-color: rgb(234,81,62);
+    position: fixed;
+}
+.leaving-space{
+    width: 300px;
+}
+
+.gallery-h2-aside h2 {
+    font-size: 44px;
+    color: white;
+    font-weight: bold;
+    margin: 30px 0 0 0;
+}
+.gallery-aside-button{
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color:rgb(234,81,62) ;
+    margin: 45px 0 0 35px;
+    color: white;
+}
+.aside-bottom {
+    margin-top: 400px;
+    margin-left: 20px;
+}
+.aside-bottom h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.aside-bottom p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.gallery-h2-para h2{
+    line-height: 1;
+}
+.gallery-h2-para p {
+    line-height: 1.5;
+}
+.nav-gallery-aside a{
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 50%;
+    color: white;
+    height: 30px; 
+    width: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.nav-gallery-aside a i{
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: 7px;
+}
+.article-gallery-container{
+    width: 1300px;
+}
+.heading-gallery{
+    font-size: 34px;
+    color: rgb(39,39,39);
+    font-weight: bold;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+}
+.adjusting-gallery-images-col1 img{
+    margin-left: 20px;
+    margin-bottom: 30px;
+    
+}
+.images-div-padding{
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.gallery-images img {
+    width: 500px;
+    border: 2px solid rgb(86,77,77);
+    border-radius: 5px;
+}
+.adjusting-gallery-images-col2 img{
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
