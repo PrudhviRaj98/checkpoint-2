@@ -355,7 +355,6 @@ table {
     text-align: center;
     margin-left: 400px;
     text-transform: uppercase;
-    color: white;
     margin-bottom: 20px;
 }
 .details {
@@ -367,6 +366,8 @@ small {
 .back1 span {
     display: inline-block;
     margin-top: 6px;
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -393,7 +394,11 @@ small {
     border-radius: 5px;
     background-color:rgb(234,81,62) ;
     margin: 45px 0 0 35px;
+
+}
+.gallery-aside-button a {
     color: white;
+    text-decoration: none;
 }
 .aside-bottom {
     margin-top: 400px;
